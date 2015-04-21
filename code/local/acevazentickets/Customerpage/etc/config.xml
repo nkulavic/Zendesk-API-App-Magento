@@ -1,34 +1,34 @@
 <?xml version="1.0"?>
 <config>
 	<modules>
-		<Istockphp_Customerpage>
+		<acevazenticketsphp_Customerpage>
 		  <version>0.1.0</version>
-		</Istockphp_Customerpage>
+		</acevazenticketsphp_Customerpage>
 	</modules>
 	
 	<global>
 		<blocks> <!--Block folder-->
-			<istockphp>
-				<class>Istockphp_Customerpage_Block</class>
-			</istockphp>
+			<acevazenticketsphp>
+				<class>acevazenticketsphp_Customerpage_Block</class>
+			</acevazenticketsphp>
 		</blocks>
 	</global>
 	
 	<frontend>
 		<routers>
-			<istockphp>
+			<acevazenticketsphp>
 				<use>standard</use>
 				<args>
-					<module>Istockphp_Customerpage</module>
+					<module>acevazenticketsphp_Customerpage</module>
 					<frontName>custompage</frontName>
 				</args>
-			</istockphp>
+			</acevazenticketsphp>
 	  
 			<customer>
 				<args>
 					<modules>
 						<!--name / before: change existing -->
-						<istockphp before="Mage_Customer">Istockphp_Customerpage</istockphp>
+						<acevazenticketsphp before="Mage_Customer">acevazenticketsphp_Customerpage</acevazenticketsphp>
 					</modules>
 				</args>
 			</customer>
@@ -36,10 +36,10 @@
 	
 		<layout>
 		  <updates>
-			<istockphp>
+			<acevazenticketsphp>
                           <!--app\design\frontend\default\default\layout\customer\custompage.xml-->
 			  <file>customer/custompage.xml</file>
-			</istockphp>
+			</acevazenticketsphp>
 		  </updates>
 		</layout>
 		

@@ -1,4 +1,7 @@
 <?xml version="1.0"?>
+<!---step 2. The Config File
+In the config.xml file we reference the Block directory and assigning a router for frontend and overriding the Mage_Customer in the core and lastly we update the layout for the controller for locating the phtml file
+--->
 <config>
 	<modules>
 		<acevazenticketsphp_Customerpage>

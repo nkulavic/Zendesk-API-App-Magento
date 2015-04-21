@@ -1,4 +1,5 @@
 <layout version="0.1.0">
+<!--- Step 6. Update Layout This custompage.xml file we included to config.xml in the update layout tag. This file we set the page title and hook the phtml template file. --->
      <!--acevazenticketsphp\Customerpage\controllers\AccountpageController.php-->
     <customer_accountpage_index translate="label">
         <label>Custom Page</label>

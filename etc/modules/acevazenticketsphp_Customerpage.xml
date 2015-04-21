@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--step 1: registering the module--> 
+<!--step 1: registering the module
+
+The first step is to inform the Magento that our module exists, by creating a XML file in \app\etc\modules\ directory.
+--> 
 <config>
     <modules>
-        <Istockphp_Customerpage> 
+        <acevazenticketsphp_Customerpage> 
             <active>true</active>
             <codePool>local</codePool>
-        </Istockphp_Customerpage>
+        </acevazenticketsphp_Customerpage>
     </modules>
 </config>

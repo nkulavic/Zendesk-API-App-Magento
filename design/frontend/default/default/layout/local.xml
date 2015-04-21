@@ -1,5 +1,7 @@
 <layout version="0.1.0">
-    <!--add link to the customer panel-->
+    <!-- Step 5. Adding link in Customer Dash Board 
+	In the local.xml file we can add and remove custom blocks, so we add custom link in the customer dashboard.
+	-->
     <customer_account>
         <reference name="customer_account_navigation">
             <action method="addLink" translate="label" module="customer">
